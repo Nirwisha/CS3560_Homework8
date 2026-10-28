@@ -6,6 +6,6 @@ public class BitcoinPayment extends Notification {
     }
 
     public void sendNotification() {
-        notificationChannel.sendMessage("Your cash on delivery payment was successful!");
+        notificationChannel.sendMessage("Your bitcoin payment was successful!");
     }
 }
