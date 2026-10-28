@@ -10,8 +10,10 @@ public class Order {
         order.add(item);
     }
 
-    /* creating loop to iterate through each item, toppings' price is already calculated/included in each respective class
-    so we don't need to sorry about it here */
+    /* 
+    * loop iterates through each item; toppings' price is already calculated/included in each respective class
+    * so we don't need to sorry about it here.
+    */
     public double getTotalCost() {
         double total = 0;
 
