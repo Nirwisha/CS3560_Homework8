@@ -1,4 +1,4 @@
-package com.homework_8;
+package com.homework_8.bridge;
 
 public class OnlinePaymentNotification extends Notification {
     public OnlinePaymentNotification(NotificationChannel channel) {

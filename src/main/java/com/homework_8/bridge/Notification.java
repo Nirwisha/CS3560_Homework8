@@ -1,4 +1,4 @@
-package com.homework_8;
+package com.homework_8.bridge;
 
 public abstract class Notification {
     protected NotificationChannel notificationChannel; //connection to notificationchannel

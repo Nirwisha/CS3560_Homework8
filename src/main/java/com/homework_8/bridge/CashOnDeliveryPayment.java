@@ -1,4 +1,4 @@
-package com.homework_8;
+package com.homework_8.bridge;
 
 public class CashOnDeliveryPayment extends Notification {
     public CashOnDeliveryPayment(NotificationChannel channel) {
