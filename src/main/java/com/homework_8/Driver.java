@@ -3,17 +3,18 @@ package com.homework_8;
 public class Driver {
     public static  void main(String[] args) {
         NotificationChannel email = new EmailChannel();
-        NotificationChannel sns = new SnsChannel();
+        NotificationChannel sms = new SmsChannel();
+        
         
         Notification onlineEmail = new OnlinePaymentNotification(email);
-        Notification onlineSns = new OnlinePaymentNotification(sns);
+        Notification onlineSms = new OnlinePaymentNotification(sms);
         Notification cashEmail = new CashOnDeliveryPayment(email);
-        Notification cashSns = new CashOnDeliveryPayment(sns);
+        Notification cashSms = new CashOnDeliveryPayment(sms);
         
         onlineEmail.sendNotification();
-        onlineSns.sendNotification();
+        onlineSms.sendNotification();
         cashEmail.sendNotification();
-        cashSns.sendNotification();
+        cashSms.sendNotification();
 
     }
 }
